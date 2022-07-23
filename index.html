@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripción" content="Página de enseñanza html 5" />
+    <meta name="keywords" content="html5, css3, diseño web" />
+    <title> Página Web PandaTec </title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+</head>
+<body>
+    <header>
+        <div class="titulo-header">
+            <h1>PANDATEC</h1>
+        </div>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="acerdaDe.html">Acerca de</a>
+            <a href="carreras.html">Carreras</a>
+            <a href="cursos.html">Cursos Cortos</a>
+            <a href="comentarios.html">Comentarios de Clientes</a>
+            <a href="inscribete.html">Inscribete</a>
+            <a href="#contactactanos">Contactanos</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Expande tu conocimiento y Conquista el Mundo</h1>
+            <h2>No hay mejor manera que aprender de la mano con un panda</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" 
+         preserveAspectRatio="none" style="height: 100%; width: 100%;"><path 
+         d="M-3.10,-16.27 C31.88,139.64 122.74,167.28 510.44,147.55 L519.47,159.38 L-12.69,180.11 Z" 
+         style="stroke: none; fill: #fff;"></path></svg></div>
+    </header>
+    <main>
+        <section class="contenedor-index">
+            <div class="titulo">
+                <h1>Por que PandaTec</h1>
+                <p>Brindamos una educación de calidad ofreciendo un servicio integral de formación y capacitación profesional en Tecnologías de la Información, Gestión y Negocios, Diseño, Comunicación y Audiovisual e Ingeniería.</p><hr /><br />
+                <p>Pandatec cuenta con un grado de certificacion con el cual no solo te ayuda en el PERU si no en todo el mundo </p><hr /><br />
+                <p>La comodidad que tienen al usar la pagina se puede comparar con la de un panda, tanto por lo agusto que se siente como con el enorme conocimiento que irá aprendiendo durante su uso</p>
+            </div>
+        </section>
+    </main>
+    <footer id="contactactanos">
+        <div class="conteiner-contactanos">
+            <div class="contactanos">
+                <h4>Phone</h4>
+                <p>988948948</p>
+            </div>
+            <div class="contactanos">
+                <h4>Email</h4>
+                <p>andersonelpapi@hot.com</p>
+                <p>lucerobichota@aea.com</p>
+                <p>juniorking@tinder.com</p>
+            </div>
+            <div class="contactanos">
+                <h4>Location</h4>
+                <p>Location</p>
+
+                <button onclick="getLocation()">Ubicacion del centro PandaTec</button>
+
+                <p id="demo"></p>
+
+                <script>
+                    var x = document.getElementById("demo");
+
+                function getLocation() {
+                    if (navigator.geolocation) {
+                        navigator.geolocation.getCurrentPosition(showPosition);
+                    } else {
+                        x.innerHTML = "Geolocation is not supported by this browser.";
+                    }
+                }
+
+                function showPosition(position) {
+                    x.innerHTML = "Latitude: " + position.coords.latitude +
+                        "<br>Longitude: " + position.coords.longitude;
+                }
+                        </script>
+                        <script>
+                function getLocation() {
+                    navigator.geolocation.getCurrentPosition(showPosition);
+                }
+                innerHTML = "Latitude: " + position.coords.latitude +
+                    "<br>Longitude: " + position.coords.longitude;
+                        </script>
+                    </div>
+                </div>
+                <h2 class="titulo-final"> &Pandatec Design || Anderson,Lucero,Junior</h2>
+    </footer>
+</body>
+</html>

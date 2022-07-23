@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripción" content="Página de enseñanza html 5" />
+    <meta name="keywords" content="html5, css3, diseño web" />
+    <title> Página Web PandaTec </title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+</head>
+<body>
+    <header>
+        <div class="titulo-header">
+            <h1>PANDATEC</h1>
+        </div>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="acerdaDe.html">Acerca de</a>
+            <a href="carreras.html">Carreras</a>
+            <a href="cursos.html">Cursos Cortos</a>
+            <a href="comentarios.html">Comentarios de Clientes</a>
+            <a href="inscribete.html">Inscribete</a>
+            <a href="#contactactanos">Contactanos</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Expande tu conocimiento y Conquista el Mundo</h1>
+            <h2>No hay mejor manera que aprender de la mano con un panda</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;">
+            <svg viewBox="0 0 500 150"
+                 preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M-3.10,-16.27 C31.88,139.64 122.74,167.28 510.44,147.55 L519.47,159.38 L-12.69,180.11 Z"
+                      style="stroke: none; fill: #fff;"></path>
+            </svg>
+        </div>
+    </header>
+
+    <form action='' class='form'>
+        <h2 class='label required'>REGISTRATE AHORA</h2>
+        <p class='field required'>
+            <label class='label required' for='name'>Nombres Completos:</label>
+            <input class='text-input' id='name' name='name' required type='text'>
+        </p>
+        <p class='field required half'>
+            <label class='label' for='email'>E-mail</label>
+            <input class='text-input' id='email' name='email' required type='email'>
+        </p>
+        <p class='field half'>
+            <label class='label' for='phone'>Contraseña</label>
+            <input class='text-input' id='phone' name='phone' required type='password'>
+        </p>
+        <p class='field half required'>
+            <label class='label' for='login'>DNI </label>
+            <input class='text-input' id='login' name='login' required type='number'>
+        </p>
+        <p class='field half required'>
+            <label class='label' for='password'>Numero de Celular</label>
+            <input class='text-input' id='password' name='password' type="number">
+        </p>
+        <p class='field half'>
+            <label class='label' for='select'>Tipo de Inscripcion</label>
+            <select class='select' id='select'>
+                <option selected value=''></option>
+                <option value='ceo'>CARRERAS</option>
+                <option value='front-end'>CURSOS</option>
+            </select>
+        </p>
+        <p class='field'>
+            <label class='label' for='about'>Comentario</label>
+            <textarea class='textarea' cols='50' id='about' name='about' rows='4'></textarea>
+        </p>
+        <p class='field half'>
+            <input class='button' type='submit' value='Registrarse'>
+        </p>
+    </form>
+    <footer id="contactactanos">
+        <div class="conteiner-contactanos">
+            <div class="contactanos">
+                <h4>Phone</h4>
+                <p>988948948</p>
+            </div>
+            <div class="contactanos">
+                <h4>Email</h4>
+                <p>988948948</p>
+            </div>
+            <div class="contactanos">
+                <h4>Location</h4>
+                <p>988948948</p>
+            </div>
+        </div>
+        <h2 class="titulo-final"> &Pandatec Design || Anderson,Lucero,Junior</h2>
+    </footer>
+</body>
+</html>
